@@ -1,0 +1,18 @@
+@media(min-width:900px) {
+  .container {
+    display: grid;
+    width: 80vw;
+    margin: auto;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: minmax(50px, auto);
+    grid-gap: 25px;
+    grid-template-areas:
+    "tl tl md md"
+    "main main main sd"
+    "ft ft ft ft";
+  }
+  .box {
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+  }
+}
