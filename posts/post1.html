@@ -1,43 +1,85 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
   <head>
-    <meta charset="utf-8"/>
-    <title>Post 1</title>
-    <link rel="stylesheet" href="../css/main.css"/>
-    <meta name="description" content="Example"/>
+    <meta charset="utf-8" />
+    <title>Project 1</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport" />
   </head>
+
   <body>
     <div class="container">
-      <div class="box" id="postheader">
-        <a href="../index.html">
-          <button class="button"
-          type="button"><strong>
-          HOME</strong>
-          </button>
-        </a>
-      </div>
-      <div class="box" id="main">
-        <div class="post" id="postTitle">
-          <h3>Post 1</h3>
-          <div class="author"><h4>by Maile Pedersen</h4></div>
-          <div class="date"><h5>December 12, 2019</h5></div>
+      <header class="box">
+        <div class="area" id="title">
+          <h1>Maile's Blog</h1>
+        </div>
+        <div class="area" id="nav">
+          <ul>
+            <li>ABOUT</li>
+            <li>WORK</li>
+            <li>CONTACT</li>
+          </ul>
+        </div>
+      </header>
+      <section class="box" id="main">
+        <article class="post" id="post1">
+          <div class="postTitle">
+            <a href="posts/post1.html">Post Number One</a>
+          </div>
+          <div class="author"><h4>Maile Pedersen</h4></div>
           <div class="image">
-            <img src="../img/monkey.jpeg" alt="monkey">
-            <figcaption>Funny monkey</figcaption>
+            <img src="images/monkey.jpeg" alt="monkey">
+            <figcaption>Funny monkey face</figcaption>
           </div>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <a href="posts/post1.html"><h4>Read more...</h4></a>
+        </article>
+        <article class="post" id="post2">
+          <div class="postTitle">
+            <a href="posts/post2.html">Post Number Two</a>
+          </div>
+          <div class="author"><h4>Maile Pedersen</h4></div>
+          <div class="image">
+            <img src="images/fox.jpeg" alt="fox">
+            <figcaption>Curious fox</figcaption>
+          </div>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <a href="posts/post2.html"><h4>Read more...</h4></a>
+        </article>
+        <article class="post" id="post3">
+          <div class="postTitle">
+            <a href="posts/post3.html">Post Number Three</a>
+          </div>
+          <div class="author"><h4>Maile Pedersen</h4></div>
+          <div class="image">
+            <img src="images/carabao.jpeg" alt="water bufallo">
+            <figcaption>Serious carabao</figcaption>
+          </div>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
-      </div>
-      <div class="box" id="sidebar">
-        <div class="section" id="categories">
-          <h2>Categories</h2>
-        </div>
-        <div class="section" id="calendar">
-          <h2>Calendar</h2>
-        </div>
-      </div>
-      <div class="box" id="footer">FOOTER</div>
+          <a href="posts/post3.html"><h4>Read more...</h4></a>
+        </article>
+      </section>
+      <section class="box" id="sidebar">
+        <ul>
+          <li>
+            <a href="https://twitter.com/maile" target="_blank">
+            <img src="images/twitter.png" alt="Twitter icon"></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/maybemaile" target="_blank">
+            <img src="images/instagram.png" alt="Instagram icon"></a>
+          </li>
+          <li>
+            <a href="https://facebook.com/mailelei" target="_blank">
+            <img src="images/facebook.png" alt="Facebook icon"></a>
+          </li>
+        </ul>
+      </section>
+      <footer class="box">
+        <p>All Rights Reserved</p>
+      </footer>
     </div>
   </body>
+  
+</html>
