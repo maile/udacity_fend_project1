@@ -1,0 +1,44 @@
+body {
+  background-color: #fcfcfb;
+  color: #241f21;
+}
+img {
+  max-width: 80%;
+  height: auto;
+
+}
+figcaption {
+  font-size: .75em;
+}
+.author {
+  font-size: .75em;
+}
+.container {
+  width: 100%;
+  margin: auto;
+}
+.box {
+  margin: 10px;
+  padding: 10px;
+}
+.area, .post, ul li {
+  margin: 5px;
+}
+ul li {
+  list-style: none;
+}
+header {
+  text-align: center;
+}
+#sidebar, footer {
+  display:flex;
+  justify-content: space-around;
+  text-align: center;
+}
+#sidebar img {
+  width: 50%;
+  height: auto;
+}
+#sidebar ul li {
+  display: inline-block;
+}
