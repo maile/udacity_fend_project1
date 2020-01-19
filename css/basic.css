@@ -10,18 +10,30 @@ img {
 figcaption {
   font-size: .75em;
 }
+
+h1 {
+  font-size: 2em;
+  font-family: 'Open Sans', sans-serif;
+}
+p, figcaption {
+  font-family: 'Roboto', sans-serif;
+}
 .author {
   font-size: .75em;
+  font-family: 'Open Sans', sans-serif;
 }
 .container {
   width: 100%;
   margin: auto;
+  /*border: 1px solid purple;*/
 }
 .box {
+  /*border: 1px solid #7a7a85;*/
   margin: 10px;
   padding: 10px;
 }
 .area, .post, ul li {
+  /*border: 1px solid blue;*/
   margin: 5px;
 }
 ul li {
