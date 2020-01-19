@@ -29,6 +29,7 @@ ul li {
 }
 header {
   text-align: center;
+  border-bottom: 2px solid gray;
 }
 #sidebar, footer {
   display:flex;
@@ -41,4 +42,7 @@ header {
 }
 #sidebar ul li {
   display: inline-block;
+}
+footer {
+  border-top: 2px solid gray;
 }
