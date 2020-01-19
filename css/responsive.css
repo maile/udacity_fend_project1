@@ -1,18 +1,60 @@
-@media(min-width:900px) {
+@media (min-width:900px) {
   .container {
     display: grid;
-    width: 80vw;
-    margin: auto;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: minmax(50px, auto);
-    grid-gap: 25px;
-    grid-template-areas:
-    "tl tl md md"
-    "main main main sd"
-    "ft ft ft ft";
+    grid-template-columns: 25% 25% 25% 25%;
   }
-  .box {
-    flex-direction: column-reverse;
+
+  /**HEADER**/
+
+  header {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+  }
+  .area, .post, #sidebar {
+    width: 100%;
+    height: auto;
+  }
+  #title {
+    text-align: center;
+  }
+  #nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+  }
+  #nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  /**MAIN**/
+
+  #main {
+    grid-column-start:1;
+    grid-column-end: 4;
+  }
+
+  /**SIDEBAR**/
+
+  #sidebar {
+    grid-column-start: 4;
+  }
+  #sidebar ul {
+    display: flex;
+    flex-direction: column;
     justify-content: flex-start;
+    }
+
+  /**FOOTER**/
+
+  footer {
+    grid-column-start:1;
+    grid-column-end:5;
   }
 }
